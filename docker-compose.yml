@@ -1,0 +1,57 @@
+version: '3.9'
+
+services:
+    nginx:
+        image: nginx
+        environment:
+            APP_ENV: 'local'
+        volumes:
+            - ./docker/nginx/conf.d:/etc/nginx/conf.d
+            - ./application:/var/www/html
+        restart: on-failure
+        working_dir: /var/www/html
+        depends_on:
+            - php
+    php:
+        build:
+            context: ./docker/php-ftm
+            args:
+                UID: $UID
+                GID: $GID
+        environment:
+            APP_ENV: 'local'
+        restart: on-failure
+        volumes:
+            - ./application:/var/www/html/
+            - ./docker/composer_data:/home/user/.composer
+        working_dir: /var/www/html
+        depends_on:
+            - mysql
+    mysql:
+        image: mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: denizstorm
+            MYSQL_DATABASE: denizstorm
+            MYSQL_USER: denizstorm
+            MYSQL_PASSWORD: denizstorm
+        restart: on-failure
+        volumes:
+            - ./docker/mysql/data:/var/lib/mysql
+    node:
+        image: node:16
+        volumes:
+            - ./application:/var/www/html
+            - ./docker/node/yarn-cache:/home/node/.cache/yarn
+        working_dir: /var/www/html
+        environment:
+            APP_ENV: 'local'
+        links:
+            - "nginx:denizstorm"
+        depends_on:
+            - nginx
+        ports:
+            - "80:80"
+            - 3000:3000
+            - 3001:3001
+        command: >
+            bash -c "yarn install && yarn watch"

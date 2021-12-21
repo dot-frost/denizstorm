@@ -1,0 +1,26 @@
+[
+    {
+        "name": "PC",
+        "slug": "pc-size"
+    },
+    {
+        "name": "HARD",
+        "slug": "hard-capacity"
+    },
+    {
+        "name": "motherboard",
+        "slug": "motherboard"
+    },
+    {
+        "name": "CPU",
+        "slug": "cpu-model"
+    },
+    {
+        "name": "MEMORY",
+        "slug": "memory"
+    },
+    {
+        "name": "GPU",
+        "slug": "gpu"
+    }
+]

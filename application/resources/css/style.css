@@ -1,0 +1,58 @@
+@font-face {
+    font-family: IranSans;;
+    src: url(../fonts/IRANSansWeb.woff2) format("woff2");
+}
+
+body {
+    font-family: IranSans, serif;
+    margin-top: 75px;
+}
+
+.fontW {
+    font-weight: 800;
+}
+
+.navbar {
+    background: #fff;
+    opacity: 0.9;
+}
+
+#bg {
+    position: relative;
+    min-height: 460px;
+    background: url(../images/bg.jpg);
+}
+
+.bg-main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(50 60 111 /68%);
+}
+
+.SizeFontBox {
+    font-size: 50px;
+}
+
+#comments img {
+    margin-top: -60px;
+}
+
+@media (max-width: 768px) {
+    .mtsiz {
+        margin-bottom: 5px;
+    }
+}
+
+/* Product Slider */
+
+.sliderProdcts{
+    margin-top: 10px;
+}
+
+.sliderProdcts img{
+    width: 100%;
+    height: auto;
+}

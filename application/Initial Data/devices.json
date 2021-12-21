@@ -1,0 +1,202 @@
+[
+    {
+        "name": "FULL Tower ",
+        "slug": "PC-f",
+        "price": 5590000,
+        "description": "\u0627\u0646\u062f\u0627\u0632\u0647 20 \u062a\u0627 22 \u0627\u06cc\u0646\u062c",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">\u0627\u0646\u062f\u0627\u0632\u0647 20 \u062a\u0627 22 \u0627\u06cc\u0646\u062c<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/PC-f.png",
+        "category": "pc-size"
+    },
+    {
+        "name": "MID Tower",
+        "slug": "PC-m",
+        "price": 3699000,
+        "description": "\u0627\u0646\u062f\u0627\u0632\u0647 17 \u062a\u0627 18 \u0627\u06cc\u0646\u0686",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">\u0627\u0646\u062f\u0627\u0632\u0647 17 \u062a\u0627 18 \u0627\u06cc\u0646\u0686<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/PC-m.png",
+        "category": "pc-size"
+    },
+    {
+        "name": "\u0627\u0633\u062a\u0627\u0646\u062f\u0627\u0631\u062f",
+        "slug": "HARD-S",
+        "price": 10000000,
+        "description": "\u062f\u0648 \u0639\u062f\u062f \u0647\u0627\u0631\u062f \u0627\u0633 \u0627\u0633 \u062f\u06cc \u0633\u0627\u0645\u0633\u0648\u0646\u06af 1 \u062a\u0631\u0627\u0628\u0627\u06cc\u062a \u0648 \u062f\u0648 \u0639\u062f\u062f \u0627\u0686 \u062f\u06cc \u062f\u06cc \u0648\u0633\u062a\u0631\u0646 \u062f\u06cc\u062c\u06cc\u062a\u0627\u0644 2 \u062a\u0631\u0627\u0628\u0627\u06cc\u062a",
+        "body": "<p>\u062a\u0639\u062f\u0627\u062f \u0648 \u062d\u062c\u0645 \u0647\u0627\u0631\u062f&nbsp;<\/p>",
+        "attributes": [],
+        "image": "Devices\/HARD-S.jpg",
+        "category": "hard-capacity"
+    },
+    {
+        "name": "\u0645\u06cc\u062f\u06cc\u0627",
+        "slug": "HARD-M",
+        "price": 12500000,
+        "description": "\u0633\u0647 \u0639\u062f\u062f \u0647\u0627\u0631\u062f \u0627\u0633 \u0627\u0633 \u062f\u06cc \u0633\u0627\u0645\u0633\u0648\u0646\u06af 1 \u062a\u0631\u0627\u0628\u0627\u06cc\u062a \u0648 \u062f\u0648 \u0639\u062f\u062f \u0627\u0686 \u062f\u06cc \u062f\u06cc \u0648\u0633\u062a\u0631\u0646 \u062f\u06cc\u062c\u06cc\u062a\u0627\u0644 2 \u062a\u0631\u0627\u0628\u0627\u06cc\u062a",
+        "body": "<p>\u062a\u0639\u062f\u0627\u062f \u0648 \u062d\u062c\u0645 \u0647\u0627\u0631\u062f<\/p>",
+        "attributes": [],
+        "image": "Devices\/HARD-M.jpg",
+        "category": "hard-capacity"
+    },
+    {
+        "name": "\u067e\u0631\u0641\u0634\u0646\u0627\u0644",
+        "slug": "HARD-P",
+        "price": 14750000,
+        "description": "\u0633\u0647 \u0639\u062f\u062f \u0647\u0627\u0631\u062f \u0627\u0633 \u0627\u0633 \u062f\u06cc \u0633\u0627\u0645\u0633\u0648\u0646\u06af 1 \u062a\u0631\u0627\u0628\u0627\u06cc\u062a \u0648 \u062f\u0648 \u0639\u062f\u062f \u0627\u0686 \u062f\u06cc \u062f\u06cc \u0648\u0633\u062a\u0631\u0646 \u062f\u06cc\u062c\u06cc\u062a\u0627\u0644 2 \u062a\u0631\u0627\u0628\u0627\u06cc\u062a \u0648 \u0627\u0645 \u062f\u0627\u062a 2 \u06cc\u06a9 \u062a\u0631\u0627\u0628\u0627\u06cc\u062a",
+        "body": "<p>\u062a\u0639\u062f\u0627\u062f \u0648 \u062d\u062c\u0645 \u0647\u0627\u0631\u062f<\/p>",
+        "attributes": [],
+        "image": "Devices\/HARD-P.jpg",
+        "category": "hard-capacity"
+    },
+    {
+        "name": "ASUS ROG Maximus XIII-Extreme",
+        "slug": "M-H",
+        "price": 33995000,
+        "description": "Z590",
+        "body": "<p>\u0633\u0631\u06cc 11<\/p>",
+        "attributes": [],
+        "image": "Devices\/M-H.png",
+        "category": "motherboard"
+    },
+    {
+        "name": "ASUS ROG STRIX F GAMING",
+        "slug": "M-M",
+        "price": 16690000,
+        "description": "Z690",
+        "body": "<p>\u0633\u0631\u06cc 12<\/p>",
+        "attributes": [],
+        "image": "Devices\/M-M.png",
+        "category": "motherboard"
+    },
+    {
+        "name": "GIGABYTE AORUS ULTRA",
+        "slug": "M-C",
+        "price": 11210000,
+        "description": "Z590",
+        "body": "<p>\u0633\u0631\u06cc 11<\/p>",
+        "attributes": [],
+        "image": "Devices\/M-C.png",
+        "category": "motherboard"
+    },
+    {
+        "name": "intel CORE I9 12th",
+        "slug": "CPU-12-I9",
+        "price": 16799000,
+        "description": "12900K 12TH",
+        "body": "<p>\u0633\u0631\u06cc 12<\/p>",
+        "attributes": [],
+        "image": "Devices\/CPU-12-I9.webp",
+        "category": "cpu-model"
+    },
+    {
+        "name": "intel CORE I9 11th",
+        "slug": "CPU-11-I9",
+        "price": 10699000,
+        "description": "11900K 11TH",
+        "body": "<p>\u0633\u0631\u06cc 11<\/p>",
+        "attributes": [],
+        "image": "Devices\/CPU-11-I9.jpg",
+        "category": "cpu-model"
+    },
+    {
+        "name": "intel CORE I7 11th",
+        "slug": "CPU-11-I7",
+        "price": 9299000,
+        "description": "11700K 11TH",
+        "body": "<p>\u0633\u0631\u06cc 11<\/p>",
+        "attributes": [],
+        "image": "Devices\/CPU-11-I7.jpg",
+        "category": "cpu-model"
+    },
+    {
+        "name": "G Skill Trident Z Royal RGB",
+        "slug": "MEMORY-H",
+        "price": 15590000,
+        "description": "64GB 32GBx2 4000MHz CL18 DDR4",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">64GB 32GBx2 4000MHz CL18 DDR4<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/MEMORY-H.jpg",
+        "category": "memory"
+    },
+    {
+        "name": "G SKILL Trident Z RGB Black",
+        "slug": "MEMORY-M",
+        "price": 15699000,
+        "description": "64GB 32GBx2 4400MHz CL19 DDR4",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">64GB 32GBx2 4400MHz CL19 DDR4<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/MEMORY-M.jpg",
+        "category": "memory"
+    },
+    {
+        "name": "G SKILL RIPJAWS V Black",
+        "slug": "MEMORY-C",
+        "price": 11855000,
+        "description": "64GB 32GBx2 3600MHz CL18 DDR4",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">64GB 32GBx2 3600MHz CL18 DDR4<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/MEMORY-C.jpg",
+        "category": "memory"
+    },
+    {
+        "name": "ASUS TUF Graphics Card",
+        "slug": "GPU-H",
+        "price": 112990000,
+        "description": "RTX3090 OC 24G GAMING GDDR6X",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">RTX3090 OC 24G GAMING GDDR6X<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/GPU-H.jpg",
+        "category": "gpu"
+    },
+    {
+        "name": "GIGABYTE AORUS GeForce RTX",
+        "slug": "GPU-M",
+        "price": 99990000,
+        "description": "RTX 3080Ti XTREME 12GB GDDR6X",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">RTX 3080Ti XTREME 12GB GDDR6X<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/GPU-M.jpg",
+        "category": "gpu"
+    },
+    {
+        "name": "AMD Radeon Graphics Card",
+        "slug": "GPU-C",
+        "price": 52600000,
+        "description": "RX6800XT 16GB GDDR6",
+        "body": "<p><span style=\"color: rgb(178, 190, 195); font-family: Raleway, Arial, sans-serif; font-size: 16px; text-align: center;\">RX6800XT 16GB GDDR6<\/span><br><\/p>",
+        "attributes": [],
+        "image": "Devices\/GPU-C.jpg",
+        "category": "gpu"
+    },
+    {
+        "name": "geforce gtx 1660ti gaming oc 6g",
+        "slug": "GPU-L",
+        "price": 22000000,
+        "description": "gtx 1660ti ",
+        "body": "<p>geforce gtx 1660ti gaming oc 6g<br><\/p>",
+        "attributes": [],
+        "image": "Devices\/GPU-L.jpg",
+        "category": "gpu"
+    },
+    {
+        "name": "gigabyte geforce rtx 2080ti",
+        "slug": "GPU-S",
+        "price": 35000000,
+        "description": "2080ti",
+        "body": "<p>gigabyte-geforce-rtx-2080-ti<br><\/p>",
+        "attributes": [],
+        "image": "Devices\/GPU-S.jpg",
+        "category": "gpu"
+    },
+    {
+        "name": "MID Tower",
+        "slug": "PC-L",
+        "price": 4000000,
+        "description": "\u0627\u0646\u062f\u0627\u0632\u0647 18 \u062a\u0627 20 \u0627\u06cc\u0646\u0686",
+        "body": "<p style=\"text-align: right;\">\u0627\u0646\u062f\u0627\u0632\u0647 18 \u062a\u0627 20 \u0627\u06cc\u0646\u0686<br><\/p>",
+        "attributes": [],
+        "image": "Devices\/PC-L.png",
+        "category": "pc-size"
+    }
+]

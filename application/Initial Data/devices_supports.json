@@ -1,0 +1,22 @@
+{
+    "M-H": [
+        "CPU-11-I9",
+        "CPU-11-I7",
+        "GPU-H",
+        "GPU-M",
+        "GPU-C",
+        "GPU-S"
+    ],
+    "M-M": [
+        "GPU-H",
+        "GPU-M",
+        "GPU-C"
+    ],
+    "M-C": [
+        "CPU-11-I9",
+        "CPU-11-I7",
+        "GPU-M",
+        "GPU-L",
+        "GPU-S"
+    ]
+}
