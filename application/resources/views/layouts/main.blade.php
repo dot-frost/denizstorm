@@ -16,7 +16,7 @@
 <nav class="navbar navbar-expand-md navbar-light fixed-top float-left" id="deniz-scroll">
     <div class="container">
         <a class="navbar-brand" href="">
-            <img alt="" height="50" src="/images/logo.png" width="50">
+            <img alt="" height="50" src="/logo.png" width="50">
             <h3 class="d-inline align-middle"></h3>
         </a>
 

@@ -277,7 +277,7 @@
             <div class="row" style="flex-direction:row-reverse">
 
                 <div class="col-lg-2 align-self-center">
-                    <img alt="" class="img-fluid" src="/images/logo.png">
+                    <img alt="" class="img-fluid" src="/logo.png">
                 </div>
 
                 <div class="col-lg-10">
