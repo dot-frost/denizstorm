@@ -7,16 +7,32 @@
 **[sanaey](https://github.com/sanaey/)**
 
 ##### requirement for Start up :
-1 install docker
-2 export GID=$(id -g)
-3 docker-compose -f docker-production.yml up -d
-4 docker-compose exec php composer install --no-dev
-5 cp application/.env.example application/.env
-6 docker-compose exec php php artisan storage:link
-7 docker-compose exec php php artisan migrate --seed
-8 localhost/login
-9 user : admin@admin.com
-10 password: adminadmin
+## in linux
+* install docker
+* export GID=$(id -g)
+* docker-compose -f docker-production.yml up -d
+* docker-compose exec php composer install --no-dev
+* cp application/.env.example application/.env
+* docker-compose exec php php artisan storage:link
+* docker-compose exec php php artisan migrate --seed
+* localhost/login
+* user : admin@admin.com
+* password: adminadmin
+ 
+## in windows in powershell
+* install docker
+* $ENV:UID = 1000
+* $ENV:GID = 1000
+* docker-compose -f docker-production.yml up -d
+* docker-compose exec php composer install --no-dev
+* cp application/.env.example application/.env
+* docker-compose exec php php artisan storage:link
+* docker-compose exec php php artisan migrate --seed
+* localhost/login
+* user : admin@admin.com
+* password: adminadmin
+
+
 ##### Description:
 ***this site is in persian languege***
 **Why did we decide to design a site to build a custom computer?**
