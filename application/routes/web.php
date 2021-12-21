@@ -5,6 +5,7 @@ Route::group(['as' => 'client.'], function(){
     Route::get('/order', \App\Http\Livewire\Pages\Order::class)->name('order');
     Route::get('/slider', \App\Http\Livewire\Components\Slider::class)->name('slider');
     Route::get('/factor', \App\Http\Controllers\FactorController::class)->name('factor');
+    Route::post('/contact', \App\Http\Controllers\ContactController::class)->name('contact');
 });
 
 
@@ -28,6 +29,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']],f
     Route::group(['prefix' => 'orders', 'as' => 'orders.'], function(){
         Route::get('/', \App\Http\Livewire\Dashboard\Pages\Order\Index::class)->name('index');
         Route::get('/{order}/show', \App\Http\Livewire\Dashboard\Pages\Order\Show::class)->name('show');
+    });
+
+    // Contacs
+    Route::group(['prefix' => 'contacts', 'as' => 'contacts.'], function(){
+        Route::get('/', \App\Http\Livewire\Dashboard\Pages\Contact\Index::class)->name('index');
+        Route::get('/{contact}/show', \App\Http\Livewire\Dashboard\Pages\Contact\Show::class)->name('show');
     });
 
     // Settings

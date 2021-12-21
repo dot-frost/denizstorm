@@ -70,6 +70,20 @@ class Sidebar extends Component
             ],
         ],
         [
+            'name' => 'پیام ها',
+            'type' => 'group',
+            'icon' => 'mdi-email-alert-outline',
+            'group' => 'contact-link-group',
+            'links' => [
+                [
+                    'name' => 'همه',
+                    'type' => 'link',
+                    'route-name' => 'admin.contacts.index',
+                    'url' => null,
+                ],
+            ],
+        ],
+        [
             'name' => 'تنظیمات',
             'type' => 'group',
             'icon' => 'mdi-wrench-outline',

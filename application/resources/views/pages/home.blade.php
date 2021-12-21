@@ -281,17 +281,25 @@
                 </div>
 
                 <div class="col-lg-10">
-                    <h3 class="fontW">ارتباط با ما</h3>
-                    <p class="lead">میتوانید با پر کردن فرم زیر با ما ارتباط مستقیم داشته باشید</p>
-
-                    <form>
+                    <h3 class="fontW text-left">ارتباط با ما</h3>
+                    <p class="lead text-left">میتوانید با پر کردن فرم زیر با ما ارتباط مستقیم داشته باشید</p>
+                    @if (session('contact_status') == true)
+                        <div class="alert alert-success text-center">
+                            <h2>
+                                پیام شما با موفقیت ثبت شد.
+                            </h2>
+                        </div>
+                    @endif
+                    <form action="{{ route('client.contact') }}" method="POST">
+                        @csrf
                         <div class="input-group input-group-lg mb-2">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
                                     <i class="fas fa-user"></i>
                                 </span>
                             </div>
-                            <input class="form-control" placeholder="نام" type="text">
+                            <input class="form-control" placeholder="نام" type="text" name="name" value="{{ old('name') }}">
+                            @error('name')<span class="error-message w-100 text-left text-danger">{{$message}}</span>@enderror
                         </div>
 
                         <div class="input-group input-group-lg mb-2">
@@ -300,7 +308,8 @@
                                 <i class="far fa-envelope"></i>
                             </span>
                             </div>
-                            <input class="form-control" placeholder="ایمیل" type="email">
+                            <input class="form-control" placeholder="ایمیل" type="email" name="email" value="{{ old('email') }}">
+                            @error('email')<span class="error-message w-100 text-left text-danger">{{$message}}</span>@enderror
                         </div>
 
                         <div class="input-group input-group-lg mb-2">
@@ -309,7 +318,8 @@
                                 <i class="fas fa-file-alt"></i>
                             </span>
                             </div>
-                            <textarea class="form-control" placeholder="متن خود را بنویسید" rows="4"  type="text"></textarea>
+                            <textarea class="form-control" placeholder="متن خود را بنویسید" rows="4" name="description">{{ old('description') }}</textarea>
+                            @error('description')<span class="error-message w-100 text-left text-danger">{{$message}}</span>@enderror
                         </div>
 
                         <input class="btn btn-primary btn-lg btn-block fontW" type="submit" value="ثبت">
